@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWToday | HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Antique+Soft&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../css/profile-style.css"/>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <img src="../images/home-images/company logo.png" alt="">
+    </header>
+    <!-- navigation bar -->
+        <nav class="menubar">
+            <ul>
+                <li><a class="tabs" href="home.html">HOME</a></li>
+                <li><a class="tabs" href="profile.html">PROFILE</a></li>
+                <li><a class="tabs" href="support.html">SUPPORT</a></li>
+                <li><a class="tabs" href="login.html">LOGOUT</a></li>
+            </ul>
+        </nav>
+        <!-- start your body here -->
+        <div class="container">
+            <div class="head">
+                <h2>UPDATE YOUR TODAY'S ACTIVITIES</h2>
+            </div>
+            <!-- form -->
+            <div class="input_form">
+            <form class="myForm" name="myForm">
+                <label>Activity:</label>
+                <input type="text" name="activity" id="Activity" class="input-box"><br>
+                <label>Time Spent:</label>
+                <input type="text" name="hours" id="Hours" class="input-box"><br>
+                <label for="ratings">RATE YOUR ACITIVITY PROGRESS.</label><br>
+                <select name="ratings" class="ratings" id="Rating">
+                    <option value="EXCELLENT">Excellent</option>
+                    <option value="VERY GOOD">Very Good</option>
+                    <option value="GOOD">Good</option>
+                    <option value="BAD"> Bad</option>                   
+                    </select><br>
+                <input type="button" class="submit-btn" value="SUBMIT" onclick="displayRow();">
+            </form>
+            </div>
+            <div class="clip1">
+                <img src="../images/home-images/undraw_About_me_re_82bv.png" alt="clip">
+            </div>
+            <div class="clear"></div>
+
+            <!-- display output -->
+            <div class="output-container">
+                <div class="output-table">
+                    <table class="table" id="opdiv" cellspacing="1">
+                        <tr>
+                            <th>ACITIVITIES</th>
+                            <th>HOURS SPENT</th>
+                            <th>RATINGS</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                        <tbody>
+
+                        </tbody>                            
+                    </table>   
+                </div>
+            </div>
+        <!-- footer -->
+            <footer>
+                <p>Made By - RAHUL PATIL</p>
+            </footer>
+        </div>
+      
+</body>
+<script src="../javascript/profile.js"></script>
+</html>

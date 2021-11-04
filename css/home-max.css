@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+/* header */
+
+header img{
+    width: 450px;
+    margin: 0 auto;
+}
+
+/* navigation */
+
+.menubar{
+    width: 100%;
+}
+
+nav ul{
+    margin-left: 0;
+    padding: 0;
+}
+
+nav ul li{
+    padding-right: 8px;
+    margin: 0 auto 0 10px;
+}
+
+nav ul li .tabs{
+    font-size: 25px;
+}
+
+/* container */
+
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.clip1 img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.about{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+
+}
+
+.about p{
+    text-align: center;
+    font-size: 23px;
+}
+
+.about h1{
+    font-size: 58px;
+    text-align: center;
+}

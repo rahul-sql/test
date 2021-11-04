@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWToday | Login</title>
+    <link rel="stylesheet" href="../css/login-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="main">
+    <div class="company-logo">
+        <img src="../images/login-images/company logo.png" alt="AWToday logo">
+    </div>
+    <!-- login form -->
+    <div id='login-form'class='login-page'>
+        <div class="form-box">
+            <div  class='login-btn'>
+                <h3>login</h3>
+            </div>
+            <!-- input Field -->
+        <div class="input-form">
+        <form class="login-form" name="form">
+            <label for="username" class="label">USERNAME</label><br>
+            <input type="text" name="email" class="input-box" placeholder="Enter Your E-mail"><br>
+            <label for="password" class="label">PASSWORD</label><br>
+            <input type="password" name="password" class="input-box" placeholder="Enter Your Password"><br>
+            <div class="remember">
+            <input type="checkbox" name="checkbox"><span>  Remeber me</span><br>
+            </div>
+            <button type="button" name="login" class="submit-btn" onclick="validate();">Log in</button><br>
+        </form>
+        </div>
+    </div>
+
+</div>    
+</body>
+<script src="../javascript/login-js.js"></script>
+</html>

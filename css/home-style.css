@@ -1,0 +1,95 @@
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+body{
+    background-image: url("../images/home-images/home\ background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header img{
+    width: 500px;
+    margin-left: 130px;
+}
+
+/* navigation bar */
+
+.menubar{
+    margin: 0 auto;
+    width: 1220px;
+    background-color: black;
+}
+
+.menubar img{  
+    width: 40px;
+}
+
+
+nav ul{
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0;
+}
+
+nav ul li .tabs{
+    padding: 5x;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: 'Zen Antique Soft', serif;
+    padding: 0 10px;
+
+}
+
+nav ul li .tabs:hover{
+    background-color: white;
+    color: black;
+}
+
+/* start your body below */
+
+.container{
+    background-color: white;
+    height: 470px;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.clip1 img{
+    width: 600px;
+    float: left;
+}
+
+.about{
+    float: right;
+    margin-right: 50px;
+
+}
+
+.about p{
+    text-align: right;
+}
+
+.about h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 65px;
+}
+
+.about p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 8px;
+    font-size: 28px;
+}

@@ -1,0 +1,101 @@
+body{
+    background-image: url("../images/login-images/login-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#main{
+    width: 550px;
+    margin: 0 150px 0 auto;
+
+}
+/* company logo designing */
+.company-logo img{
+    width: 400px;
+    margin-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* login box styling */
+
+.form-box
+{
+    width:80%;
+	height:480px;
+	margin: 25px auto ;
+	background:rgba(255, 255, 255, 0.2);
+	padding:10px;
+}
+
+.login-btn{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+	padding: 0;
+	background:black;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+}
+
+/* input field */
+
+.input-form{
+    padding-top: 10px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.label{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.input-box{
+    background: transparent;
+    width: 100%;
+	padding:10px;
+	margin: 5px 0 15px 0;
+	border-left:0;
+	border-top:0;
+	border-right:0;
+	border-bottom: 2px solid black;
+	outline:none; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.input-box:hover{
+    background-color:rgb(82, 82, 82, 0.3);
+}
+
+::placeholder{
+    color: rgb(212, 212, 212);
+}
+
+.remember{
+	margin: 10px 100px 34px 0;
+
+    color: white;
+}
+
+
+/* finally Login Submit button */
+
+.submit-btn{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+	padding: 0;
+	background:black;
+    color: white;
+    border-radius: 40px;
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;    
+}
+
+/* media Querry */
+
